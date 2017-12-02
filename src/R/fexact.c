@@ -408,6 +408,8 @@ fexact(int *nrow, int *ncol, int *table, int *ldtabl,
 	   iwrk + iiwk,
 	   dwrk + irwk);
 
+    free(equiv);
+
     return;
 }
 
